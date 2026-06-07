@@ -64,10 +64,3 @@ All models use pretrained ImageNet encoders.
 - **Dice: 0.757**
 
 ---
-
-## 🚀 Inference
-
-Run prediction on a single image:
-
-```bash
-python scripts/predict.py --image path/to/image.jpg --model models/best_model_aug.pth
